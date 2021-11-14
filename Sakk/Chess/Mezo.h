@@ -6,7 +6,7 @@
 #include <SDL2_gfxPrimitives.h>
 
 typedef enum Tipus{
-    kiraly,vezer,bastya,futo,lo,paraszt,nincs     //A bábuk tipusai, illetve egy nincs tipus az ures mezok megkulonboztetesere
+    kiraly,vezer,bastya,futo,lo,paraszt,nincs     //A babuk tipusai, illetve egy nincs tipus az ures mezok megkulonboztetesere
 }Tipus;
 
 typedef enum Babuszin{

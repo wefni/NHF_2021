@@ -4,7 +4,7 @@
 #include <SDL2_gfxPrimitives.h>
 #include <stdlib.h>
 #include "Mezo.h"
-#include "InitializeGame.h"
+#include "tabla.h"
 #include "megjelenit.h"
 #include "debugmalloc.h"
 

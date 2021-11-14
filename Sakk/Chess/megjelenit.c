@@ -40,11 +40,11 @@ void indul(){ //Az osszes meghivas ami a kepernyore valo megjelenitest lehetove 
 }
 
 void megjelenites(rajzolo *r){
-    for(int i = 0;i<8;i++){
+    for(int i = 0;i<8;i++){ //Vegig megyunk a 8 soron és oszlopon
         for(int j=0;j<8;j++){
             if((i+j)%2==0){ //Megnezzuk, hogyha a i+j osszege oszthato-e kettovel maradek nelkul, akkor feher legyen a mezo, ha meg nem akkor meg fekete, illetve itt rajzoljuk ki a babukat a tablara
-                 boxRGBA(r->renderer,100+100*i,100+100*j,100*i,100*j,221,230,238,255);
-                 baburajz(r,r->p->palya[i][j].babu.szin,r->p->palya[i][j].babu.tipus,i,j);
+                 boxRGBA(r->renderer,100+100*i,100+100*j,100*i,100*j,221,230,238,255); //Ez pedig magáért a mezőkért felelős, hogy megjelenitse oket
+                 baburajz(r,r->p->palya[i][j].babu.szin,r->p->palya[i][j].babu.tipus,i,j); //Meghivjuk a baburajz fuggvenyt, hogy szin es tipus alapjan megjelenitsuk oket az elore meghatarozott helyukre
             }else{
                 boxRGBA(r->renderer,100+100*i,100+100*j,100*i,100*j,123,155,176,255);
                 baburajz(r,r->p->palya[i][j].babu.szin,r->p->palya[i][j].babu.tipus,i,j);

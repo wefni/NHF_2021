@@ -1,8 +1,13 @@
 # depslib dependency file v1.0
-1634997102 source:c:\users\david\desktop\sakk\chess\main.c
+1637015108 source:c:\users\david\desktop\sakk\chess\main.c
+	<SDL_image.h>
 	<SDL_image.h>
 	<SDL2_gfxPrimitives.h>
 	<stdlib.h>
+	"Mezo.h"
+	"tabla.h"
+	"megjelenit.h"
+	"debugmalloc.h"
 
 1518375510 c:\program files\codeblocks\mingw\include\sdl2\sdl2_gfxprimitives.h
 	<math.h>
@@ -368,13 +373,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1636581190 source:c:\sakk\chess\main.c
+1637765382 source:c:\sakk\chess\main.c
 	<SDL_image.h>
 	<SDL_image.h>
 	<SDL2_gfxPrimitives.h>
 	<stdlib.h>
 	"Mezo.h"
-	"InitializeGame.h"
+	"tabla.h"
 	"megjelenit.h"
 	"debugmalloc.h"
 
@@ -404,7 +409,7 @@
 
 1635609085 c:\sakk\chess\init_babuk.h
 
-1636674675 c:\sakk\chess\mezo.h
+1637015108 c:\sakk\chess\mezo.h
 	"debugmalloc.h"
 	<SDL.h>
 	<SDL_image.h>
@@ -417,12 +422,12 @@
 	<SDL2_gfxPrimitives.h>
 	"Mezo.h"
 
-1636676371 source:c:\sakk\chess\mezo.c
+1637015108 source:c:\sakk\chess\mezo.c
 	"Mezo.h"
 
 1636403277 c:\sakk\chess\main.h
 
-1636676155 source:c:\sakk\chess\initializegame.c
+1637859910 source:c:\sakk\chess\initializegame.c
 	<SDL.h>
 	<SDL_image.h>
 	<SDL2_gfxPrimitives.h>
@@ -435,14 +440,16 @@
 1636574906 c:\sakk\chess\megjelenit.c
 	"megjelenit.h"
 
-1636676327 c:\sakk\chess\megjelenit.h
+1637954416 c:\sakk\chess\megjelenit.h
 	<SDL.h>
 	<SDL_image.h>
-	<stdlib.h>
 	<SDL2_gfxPrimitives.h>
-	"InitializeGame.h"
-	"debugmalloc.h"
+	<SDL_ttf.h>
 	<stdbool.h>
+	<stdlib.h>
+	<math.h>
+	"tabla.h"
+	"debugmalloc.h"
 
 1636566440 c:\sakk\chess\initializegame.c
 	<SDL.h>
@@ -461,7 +468,7 @@
 	"Mezo.h"
 	"main.h"
 
-1636674063 source:c:\sakk\chess\megjelenit.c
+1637957566 source:c:\sakk\chess\megjelenit.c
 	"megjelenit.h"
 	"debugmalloc.h"
 
@@ -473,7 +480,7 @@
 	"InitializeGame.h"
 	"megjelenit.h"
 
-1636043871 c:\sakk\chess\debugmalloc.h
+1637015108 c:\sakk\chess\debugmalloc.h
 	<stdbool.h>
 	<stddef.h>
 	<stdlib.h>
@@ -483,4 +490,56 @@
 	<stdarg.h>
 	<process.h>
 	<unistd.h>
+
+1637015108 c:\users\david\desktop\sakk\chess\mezo.h
+	"debugmalloc.h"
+	<SDL.h>
+	<SDL_image.h>
+	<SDL2_gfxPrimitives.h>
+
+1637015108 c:\users\david\desktop\sakk\chess\debugmalloc.h
+	<stdbool.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdarg.h>
+	<process.h>
+	<unistd.h>
+
+1637015108 c:\users\david\desktop\sakk\chess\tabla.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdlib.h>
+	<SDL2_gfxPrimitives.h>
+	"Mezo.h"
+
+1637015108 c:\users\david\desktop\sakk\chess\megjelenit.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdlib.h>
+	<SDL2_gfxPrimitives.h>
+	"tabla.h"
+	"debugmalloc.h"
+	<stdbool.h>
+
+1637015108 source:c:\users\david\desktop\sakk\chess\megjelenit.c
+	"megjelenit.h"
+	"debugmalloc.h"
+
+1637015108 source:c:\users\david\desktop\sakk\chess\mezo.c
+	"Mezo.h"
+
+1637015108 c:\sakk\chess\tabla.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdlib.h>
+	<SDL2_gfxPrimitives.h>
+	"Mezo.h"
+
+1547322290 c:\program files\codeblocks\mingw\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
 

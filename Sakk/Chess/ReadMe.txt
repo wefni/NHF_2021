@@ -1,1 +1,1 @@
-Ne másolj belőle ki légyszi, köszi!<3
+Ne másolj belőle ki légyszi semmit, köszi!<3

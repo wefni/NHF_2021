@@ -22,6 +22,7 @@ Palya *Field(){
             poz(i,j,&(p->palya[i][j]));   //Itt beallitjuk a mezoknek az x,y koordinatajat a palyan
         }
     }
+
     kezdes(p);
     return p;
 }

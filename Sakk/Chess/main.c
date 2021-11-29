@@ -8,6 +8,7 @@
 #include "megjelenit.h"
 #include "debugmalloc.h"
 
+
 int main(int argc, char *argv[]) {
     indul(); //Meghivjuk az indul fuggvenyt, ami tartalmazza az osszes szukseges fuggvenyt
     SDL_Quit();

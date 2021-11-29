@@ -373,7 +373,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1637765382 source:c:\sakk\chess\main.c
+1637974496 source:c:\sakk\chess\main.c
 	<SDL_image.h>
 	<SDL_image.h>
 	<SDL2_gfxPrimitives.h>
@@ -409,7 +409,7 @@
 
 1635609085 c:\sakk\chess\init_babuk.h
 
-1637015108 c:\sakk\chess\mezo.h
+1638054098 c:\sakk\chess\mezo.h
 	"debugmalloc.h"
 	<SDL.h>
 	<SDL_image.h>
@@ -427,7 +427,7 @@
 
 1636403277 c:\sakk\chess\main.h
 
-1637859910 source:c:\sakk\chess\initializegame.c
+1638066405 source:c:\sakk\chess\initializegame.c
 	<SDL.h>
 	<SDL_image.h>
 	<SDL2_gfxPrimitives.h>
@@ -440,13 +440,14 @@
 1636574906 c:\sakk\chess\megjelenit.c
 	"megjelenit.h"
 
-1637954416 c:\sakk\chess\megjelenit.h
+1638110500 c:\sakk\chess\megjelenit.h
 	<SDL.h>
 	<SDL_image.h>
 	<SDL2_gfxPrimitives.h>
 	<SDL_ttf.h>
 	<stdbool.h>
 	<stdlib.h>
+	<stdio.h>
 	<math.h>
 	"tabla.h"
 	"debugmalloc.h"
@@ -468,7 +469,7 @@
 	"Mezo.h"
 	"main.h"
 
-1637957566 source:c:\sakk\chess\megjelenit.c
+1638133562 source:c:\sakk\chess\megjelenit.c
 	"megjelenit.h"
 	"debugmalloc.h"
 
@@ -542,4 +543,15 @@
 	"SDL.h"
 	"begin_code.h"
 	"close_code.h"
+
+1637965948 c:\sakk\chess\menu.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<stdlib.h>
+	"debugmalloc.h"
+	"megjelenit.h"
+
+1637974027 source:c:\sakk\chess\menu.c
+	"debugmalloc.h"
+	"megjelenit.h"
 
